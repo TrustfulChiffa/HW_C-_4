@@ -17,17 +17,17 @@ int[] RandomArray(int L)
 
 void PrintArray(int L, int[] arr)
 {
-    for (int i = 0; i < length - 1; i++)
+    for (int i = 0; i < L - 1; i++)
     {
         Console.Write($"{arr[i]}, ");
     }
-    Console.Write($"{arr[length - 1]} -> [");
+    Console.Write($"{arr[L - 1]} -> [");
 
-    for (int i = 0; i < length - 1; i++)
+    for (int i = 0; i < L - 1; i++)
     {
         Console.Write($"{arr[i]}, ");
     }
-    Console.Write($"{arr[length - 1]}]");
+    Console.Write($"{arr[L - 1]}]");
 }
 
 
